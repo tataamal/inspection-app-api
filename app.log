@@ -1,0 +1,265 @@
+{"timestamp":"2025-11-24T08:12:24.719Z","level":"INFO","endpoint":"SERVER","message":"Server started successfully","data":"{\"host\":\"0.0.0.0\",\"port\":\"4003\",\"environment\":\"development\"}"}
+{"timestamp":"2025-11-24T08:12:49.830Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:12:49.832Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:12:49.872Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:12:50.102Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"plant\":\"3000\"}"}
+{"timestamp":"2025-11-24T08:12:50.105Z","level":"ERROR","endpoint":"GET_INSP_LOT","message":"Process failed","data":"{\"error\":\"Unknown option: IV_DISPO\",\"stack\":\"TypeError: Unknown option: IV_DISPO\\n    at Client.invoke (C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:300:27)\\n    at C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:245:22\\n    at new Promise (<anonymous>)\\n    at Client.call (C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:230:16)\\n    at C:\\\\IT_Tata\\\\quality-inspection\\\\index.js:138:37\"}"}
+{"timestamp":"2025-11-24T08:13:02.491Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:13:02.493Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:13:02.494Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:13:02.668Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"plant\":\"3000\"}"}
+{"timestamp":"2025-11-24T08:13:02.676Z","level":"ERROR","endpoint":"GET_INSP_LOT","message":"Process failed","data":"{\"error\":\"Unknown option: IV_DISPO\",\"stack\":\"TypeError: Unknown option: IV_DISPO\\n    at Client.invoke (C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:300:27)\\n    at C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:245:22\\n    at new Promise (<anonymous>)\\n    at Client.call (C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:230:16)\\n    at C:\\\\IT_Tata\\\\quality-inspection\\\\index.js:138:37\"}"}
+{"timestamp":"2025-11-24T08:17:45.238Z","level":"INFO","endpoint":"SERVER","message":"Server started successfully","data":"{\"host\":\"0.0.0.0\",\"port\":\"4003\",\"environment\":\"development\"}"}
+{"timestamp":"2025-11-24T08:20:24.711Z","level":"INFO","endpoint":"SERVER","message":"Server started successfully","data":"{\"host\":\"0.0.0.0\",\"port\":\"4003\",\"environment\":\"development\"}"}
+{"timestamp":"2025-11-24T08:20:36.119Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:20:36.120Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:20:36.161Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:20:36.481Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:20:36.484Z","level":"ERROR","endpoint":"GET_INSP_LOT","message":"Process failed","data":"{\"error\":\"Unknown option: IV_DISPO\",\"stack\":\"TypeError: Unknown option: IV_DISPO\\n    at Client.invoke (C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:300:27)\\n    at C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:245:22\\n    at new Promise (<anonymous>)\\n    at Client.call (C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:230:16)\\n    at C:\\\\IT_Tata\\\\quality-inspection\\\\index.js:138:37\"}"}
+{"timestamp":"2025-11-24T08:21:01.542Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:21:01.561Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:21:01.562Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:21:01.887Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:21:01.908Z","level":"ERROR","endpoint":"GET_INSP_LOT","message":"Process failed","data":"{\"error\":\"Unknown option: IV_DISPO\",\"stack\":\"TypeError: Unknown option: IV_DISPO\\n    at Client.invoke (C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:300:27)\\n    at C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:245:22\\n    at new Promise (<anonymous>)\\n    at Client.call (C:\\\\IT_Tata\\\\quality-inspection\\\\node_modules\\\\node-rfc\\\\lib\\\\sapnwrfc-client.js:230:16)\\n    at C:\\\\IT_Tata\\\\quality-inspection\\\\index.js:138:37\"}"}
+{"timestamp":"2025-11-24T08:23:19.834Z","level":"INFO","endpoint":"SERVER","message":"Server started successfully","data":"{\"host\":\"0.0.0.0\",\"port\":\"4003\",\"environment\":\"development\"}"}
+{"timestamp":"2025-11-24T08:23:35.502Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:23:35.504Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:23:35.544Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:23:35.937Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"3000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:23:39.025Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:23:39.026Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:23:39.062Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:23:39.068Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:23:39.071Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:23:39.072Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:23:39.074Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:23:39.080Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:25:02.892Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:02.893Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:25:02.895Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:25:03.222Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"3000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:03.513Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:25:03.518Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:25:03.519Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:25:03.522Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:03.524Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:25:03.525Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:25:03.527Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:03.529Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:25:10.078Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:10.079Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:25:10.081Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:25:10.306Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"3000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:10.607Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:25:10.608Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:25:10.610Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:25:10.612Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:10.615Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:25:10.615Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:25:10.618Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:10.619Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:25:11.941Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:11.943Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:25:11.944Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:25:12.245Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"3000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:12.512Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:25:12.514Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:25:12.515Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:25:12.518Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:12.520Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:25:12.521Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:25:12.523Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:25:12.525Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:30:13.484Z","level":"INFO","endpoint":"SERVER","message":"Server started successfully","data":"{\"host\":\"0.0.0.0\",\"port\":\"4003\",\"environment\":\"development\"}"}
+{"timestamp":"2025-11-24T08:30:41.646Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:30:41.647Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:30:41.688Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:30:42.046Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"3000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:30:43.860Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:30:43.862Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:30:43.922Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T08:30:43.929Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T08:30:43.931Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:30:43.934Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:30:43.937Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:30:43.937Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:30:43.941Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:30:43.947Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:35:18.386Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:35:18.388Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:35:18.390Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:35:18.687Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"3000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:35:18.949Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:35:18.950Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:35:18.952Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T08:35:18.955Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T08:35:18.956Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:35:18.959Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:35:18.962Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:35:18.962Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:35:18.965Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:35:18.967Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:35:51.783Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"t\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:35:51.784Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:35:51.786Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:35:51.999Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"t\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:35:52.222Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:35:52.225Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:35:52.226Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T08:35:52.230Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T08:35:52.231Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:35:52.234Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"t\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:35:52.236Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:35:52.237Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:35:52.239Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:35:52.241Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:36:01.429Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:36:01.475Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:36:01.476Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:36:01.734Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"3000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:36:02.081Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:36:02.092Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:36:02.103Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T08:36:02.109Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T08:36:02.110Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:36:02.112Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:36:02.115Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:36:02.115Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:36:02.117Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:36:02.119Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:37:49.470Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:37:49.472Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:37:49.473Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:37:49.759Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"3000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:37:50.067Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:37:50.069Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:37:50.070Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T08:37:50.075Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T08:37:50.076Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:37:50.077Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:37:50.079Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:37:50.080Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:37:50.082Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:37:50.084Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:38:17.935Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"3000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:38:17.936Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:38:17.937Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:38:18.207Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"3000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:38:18.599Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":0,\"firstRecord\":\"none\"}"}
+{"timestamp":"2025-11-24T08:38:18.601Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:38:18.602Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T08:38:18.608Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T08:38:18.609Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:38:18.611Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"3000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:38:18.657Z","level":"WARN","endpoint":"GET_INSP_LOT","message":"No records to insert","data":null}
+{"timestamp":"2025-11-24T08:38:18.658Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:38:18.661Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":0,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:38:18.666Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:39:59.757Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"2000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:39:59.759Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:39:59.760Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:40:00.012Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"2000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:40:13.440Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":47,\"firstRecord\":\"040000682513\"}"}
+{"timestamp":"2025-11-24T08:40:13.442Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:40:13.443Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T08:40:13.448Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T08:40:13.449Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:40:13.451Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"2000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:40:13.454Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Inserting records to database","data":"{\"recordCount\":47}"}
+{"timestamp":"2025-11-24T08:40:13.468Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:40:13.471Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":47,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:40:13.473Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:40:16.086Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"2000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:40:16.088Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:40:16.089Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:40:16.322Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"2000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:40:28.707Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":47,\"firstRecord\":\"040000682513\"}"}
+{"timestamp":"2025-11-24T08:40:28.709Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:40:28.710Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T08:40:28.723Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T08:40:28.724Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:40:28.726Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"2000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:40:28.730Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Inserting records to database","data":"{\"recordCount\":47}"}
+{"timestamp":"2025-11-24T08:40:28.737Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:40:28.740Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":47,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:40:28.742Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:41:02.200Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"2000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:41:02.220Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:41:02.255Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:41:02.545Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"2000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:41:14.937Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":47,\"firstRecord\":\"040000682513\"}"}
+{"timestamp":"2025-11-24T08:41:14.939Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T08:41:14.940Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T08:41:14.956Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T08:41:14.957Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T08:41:14.959Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"2000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:41:14.962Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Inserting records to database","data":"{\"recordCount\":47}"}
+{"timestamp":"2025-11-24T08:41:14.968Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T08:41:14.971Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":47,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T08:41:14.984Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T08:49:51.859Z","level":"INFO","endpoint":"SAP_LOGIN","message":"Login attempt started","data":"{\"username\":\"auto_email\"}"}
+{"timestamp":"2025-11-24T08:49:51.861Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:49:51.863Z","level":"DEBUG","endpoint":"SAP_LOGIN","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:49:52.251Z","level":"DEBUG","endpoint":"SAP_LOGIN","message":"Pinging SAP server","data":null}
+{"timestamp":"2025-11-24T08:49:52.288Z","level":"SUCCESS","endpoint":"SAP_LOGIN","message":"User login successful","data":"{\"username\":\"auto_email\"}"}
+{"timestamp":"2025-11-24T08:57:10.438Z","level":"INFO","endpoint":"SAP_LOGIN","message":"Login attempt started","data":"{\"username\":\"auto_email\"}"}
+{"timestamp":"2025-11-24T08:57:10.440Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T08:57:10.441Z","level":"DEBUG","endpoint":"SAP_LOGIN","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T08:57:10.788Z","level":"DEBUG","endpoint":"SAP_LOGIN","message":"Pinging SAP server","data":null}
+{"timestamp":"2025-11-24T08:57:10.818Z","level":"SUCCESS","endpoint":"SAP_LOGIN","message":"User login successful","data":"{\"username\":\"auto_email\"}"}
+{"timestamp":"2025-11-24T09:05:23.093Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"2000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:05:23.095Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T09:05:23.096Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T09:05:23.394Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"2000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:05:40.046Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":47,\"firstRecord\":\"040000682513\"}"}
+{"timestamp":"2025-11-24T09:05:40.049Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T09:05:40.052Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T09:05:40.057Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T09:05:40.058Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T09:05:40.060Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"2000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:05:40.063Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Inserting records to database","data":"{\"recordCount\":47}"}
+{"timestamp":"2025-11-24T09:05:40.070Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T09:05:40.074Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":47,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:05:40.076Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T09:08:22.458Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"2000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:08:22.460Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T09:08:22.461Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T09:08:22.775Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"2000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:08:44.179Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":47,\"firstRecord\":\"040000682513\"}"}
+{"timestamp":"2025-11-24T09:08:44.181Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T09:08:44.183Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T09:08:44.187Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T09:08:44.187Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T09:08:44.189Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"2000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:08:44.192Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Inserting records to database","data":"{\"recordCount\":47}"}
+{"timestamp":"2025-11-24T09:08:44.198Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T09:08:44.208Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":47,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:08:44.211Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T09:12:14.423Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"2000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:12:14.425Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T09:12:14.426Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T09:12:14.796Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"2000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:12:32.016Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":47,\"firstRecord\":\"040000682513\"}"}
+{"timestamp":"2025-11-24T09:12:32.018Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T09:12:32.019Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T09:12:32.023Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T09:12:32.024Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T09:12:32.027Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"2000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:12:32.030Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Inserting records to database","data":"{\"recordCount\":47}"}
+{"timestamp":"2025-11-24T09:12:32.036Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T09:12:32.039Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":47,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:12:32.041Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}
+{"timestamp":"2025-11-24T09:19:07.623Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"Request received","data":"{\"plant\":\"2000\",\"username\":\"auto_email\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:19:07.625Z","level":"DEBUG","endpoint":"SAP_CLIENT","message":"Creating SAP client","data":"{\"username\":\"auto_email\",\"ashost\":\"192.168.254.154\"}"}
+{"timestamp":"2025-11-24T09:19:07.626Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Opening SAP connection","data":null}
+{"timestamp":"2025-11-24T09:19:07.955Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Calling SAP function Z_RFC_GET_INSP_LOT_BY_DISPO","data":"{\"IV_WERKS\":\"2000\",\"IV_DISPO\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:19:27.239Z","level":"INFO","endpoint":"GET_INSP_LOT","message":"SAP response received","data":"{\"recordCount\":46,\"firstRecord\":\"040000682513\"}"}
+{"timestamp":"2025-11-24T09:19:27.242Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Getting database connection","data":null}
+{"timestamp":"2025-11-24T09:19:27.244Z","level":"DEBUG","endpoint":"CREATE_TABLE","message":"Checking if table exists","data":null}
+{"timestamp":"2025-11-24T09:19:27.254Z","level":"SUCCESS","endpoint":"CREATE_TABLE","message":"Table checked/created successfully","data":null}
+{"timestamp":"2025-11-24T09:19:27.254Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Starting database transaction","data":null}
+{"timestamp":"2025-11-24T09:19:27.257Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Deleting existing records for plant and dispo","data":"{\"plant\":\"2000\",\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:19:27.260Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Inserting records to database","data":"{\"recordCount\":46}"}
+{"timestamp":"2025-11-24T09:19:27.266Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Committing database transaction","data":null}
+{"timestamp":"2025-11-24T09:19:27.271Z","level":"SUCCESS","endpoint":"GET_INSP_LOT","message":"Process completed successfully","data":"{\"totalRecords\":46,\"dispo\":\"GA1\"}"}
+{"timestamp":"2025-11-24T09:19:27.273Z","level":"DEBUG","endpoint":"GET_INSP_LOT","message":"Releasing database connection","data":null}

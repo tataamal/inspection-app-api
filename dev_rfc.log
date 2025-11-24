@@ -1,0 +1,79 @@
+
+**** Log file opened at 2025-11-24 08:03:52.337695 UTC+07:00 (SE Asia Standard Time), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 12 Hotfix 2
+Compilation date          : Nov 18 2023 00:08:12
+CPIC library              : 753.2023.11.09 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1235
+Current working directory : C:\IT_Tata\quality-inspection
+Program                   : node
+Process ID                : 09964
+User                      : Administrator
+Hardware                  : PC with Windows NT 4x AMD64 Level 6 (Mod 60 Step 3)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : SMGSERVER-01
+IP address                : 192.168.56.1
+IPv6 address              : fe80::47bc:6a34:8b74:f83d
+Global trace level        : 0
+
+2025-11-24 08:03:52.337780 [11672] >> Info entry
+	Did not find config file C:\IT_Tata\quality-inspection\sapnwrfc.ini.
+
+**** Log file opened at 2025-11-24 08:55:17.000454 UTC+07:00 (SE Asia Standard Time), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 12 Hotfix 2
+Compilation date          : Nov 18 2023 00:08:12
+CPIC library              : 753.2023.11.09 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1235
+Current working directory : C:\IT_Tata\quality-inspection
+Program                   : node
+Process ID                : 11536
+User                      : Administrator
+Hardware                  : PC with Windows NT 4x AMD64 Level 6 (Mod 60 Step 3)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : SMGSERVER-01
+IP address                : 192.168.56.1
+IPv6 address              : fe80::47bc:6a34:8b74:f83d
+Global trace level        : 0
+
+2025-11-24 08:55:17.000011 [13620] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-24 08:55:17.000960 [13620] >> Error entry
+	[Handle: 2767618305616	ConvID: 84258910	Target: kmiprd	SysID: PRD	SysNr: 01	User: sasasasa	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2025-11-24 10:39:42.226131 [12416] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-24 10:39:42.226389 [12416] >> Error entry
+	[Handle: 2767619769424	ConvID: 89913261	Target: kmiprd	SysID: PRD	SysNr: 01	User: auto_email	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2025-11-24 10:46:53.731035 [08740] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-24 10:46:53.731241 [08740] >> Error entry
+	[Handle: 2767619774864	ConvID: 91058781	Target: kmiprd	SysID: PRD	SysNr: 01	User: auto_email	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+
+**** Log file opened at 2025-11-24 10:51:36.277564 UTC+07:00 (SE Asia Standard Time), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 12 Hotfix 2
+Compilation date          : Nov 18 2023 00:08:12
+CPIC library              : 753.2023.11.09 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1235
+Current working directory : C:\IT_Tata\quality-inspection
+Program                   : node
+Process ID                : 14236
+User                      : Administrator
+Hardware                  : PC with Windows NT 4x AMD64 Level 6 (Mod 60 Step 3)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : SMGSERVER-01
+IP address                : 192.168.56.1
+IPv6 address              : fe80::47bc:6a34:8b74:f83d
+Global trace level        : 0
+
+2025-11-24 10:51:36.277193 [11152] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-24 10:51:36.278132 [11152] >> Error entry
+	[Handle: 2330749196640	ConvID: 90608310	Target: kmiprd	SysID: PRD	SysNr: 01	User: auto_email	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
