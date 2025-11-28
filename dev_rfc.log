@@ -77,3 +77,100 @@ Global trace level        : 0
 2025-11-24 10:51:36.278132 [11152] >> Error entry
 	[Handle: 2330749196640	ConvID: 90608310	Target: kmiprd	SysID: PRD	SysNr: 01	User: auto_email	Client: 300	Language: E	Codepage: 4103]
 	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+
+**** Log file opened at 2025-11-27 15:31:17.470293 UTC+07:00 (SE Asia Standard Time), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 12 Hotfix 2
+Compilation date          : Nov 18 2023 00:08:12
+CPIC library              : 753.2023.11.09 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1235
+Current working directory : C:\IT_Tata\quality-inspection
+Program                   : node
+Process ID                : 04416
+User                      : Administrator
+Hardware                  : PC with Windows NT 4x AMD64 Level 6 (Mod 60 Step 3)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : SMGSERVER-01
+IP address                : 192.168.56.1
+IPv6 address              : fe80::47bc:6a34:8b74:f83d
+Global trace level        : 0
+
+2025-11-27 15:31:17.469862 [10852] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-27 15:31:17.470817 [10852] >> Error entry
+	[Handle: 2841243363968	ConvID: 66724011	Target: kmiprd	SysID: PRD	SysNr: 01	User: KMI-U124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2025-11-27 15:39:41.594242 [00220] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-27 15:39:41.594454 [00220] >> Error entry
+	[Handle: 2841243861440	ConvID: 67832158	Target: kmiprd	SysID: PRD	SysNr: 01	User: kmi-u124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+
+**** Log file opened at 2025-11-27 17:04:41.246853 UTC+07:00 (SE Asia Standard Time), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 12 Hotfix 2
+Compilation date          : Nov 18 2023 00:08:12
+CPIC library              : 753.2023.11.09 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1235
+Current working directory : C:\IT_Tata\quality-inspection
+Program                   : node
+Process ID                : 09924
+User                      : Administrator
+Hardware                  : PC with Windows NT 4x AMD64 Level 6 (Mod 60 Step 3)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : SMGSERVER-01
+IP address                : 192.168.56.1
+IPv6 address              : fe80::47bc:6a34:8b74:f83d
+Global trace level        : 0
+
+2025-11-27 17:04:41.246450 [10368] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-27 17:04:41.247385 [10368] >> Error entry
+	[Handle: 2671619064368	ConvID: 72960980	Target: kmiprd	SysID: PRD	SysNr: 01	User: kmi-u124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+
+**** Log file opened at 2025-11-27 18:01:41.412405 UTC+07:00 (SE Asia Standard Time), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 12 Hotfix 2
+Compilation date          : Nov 18 2023 00:08:12
+CPIC library              : 753.2023.11.09 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1235
+Current working directory : C:\IT_Tata\quality-inspection
+Program                   : node
+Process ID                : 10976
+User                      : Administrator
+Hardware                  : PC with Windows NT 4x AMD64 Level 6 (Mod 60 Step 3)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : SMGSERVER-01
+IP address                : 192.168.56.1
+IPv6 address              : fe80::47bc:6a34:8b74:f83d
+Global trace level        : 0
+
+2025-11-27 18:01:41.412034 [09664] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-27 18:01:41.412935 [09664] >> Error entry
+	[Handle: 2217310335280	ConvID: 76063210	Target: kmiprd	SysID: PRD	SysNr: 01	User: KMI-124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2025-11-27 18:02:04.148912 [14204] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-27 18:02:04.149104 [14204] >> Error entry
+	[Handle: 2217311123952	ConvID: 76098010	Target: kmiprd	SysID: PRD	SysNr: 01	User: KMI-124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2025-11-27 18:02:12.409133 [11972] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-27 18:02:12.409331 [11972] >> Error entry
+	[Handle: 2217310335280	ConvID: 76123261	Target: kmiprd	SysID: PRD	SysNr: 01	User: KMI-124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2025-11-27 18:05:11.481591 [12160] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-27 18:05:11.481803 [12160] >> Error entry
+	[Handle: 2217310335280	ConvID: 76463331	Target: kmiprd	SysID: PRD	SysNr: 01	User: kmi-u124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2025-11-27 18:15:21.912258 [09664] >> Error entry
+	Error in receive: 18, data rec 2, status rec 0, read 237, no SAP ErrInfo available
+2025-11-27 18:15:21.912433 [09664] >> Error entry
+	[Handle: 2217310355024	ConvID: 76844821	Target: kmiprd	SysID: PRD	SysNr: 01	User: kmi-u38	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
