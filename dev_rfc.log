@@ -174,3 +174,94 @@ Global trace level        : 0
 2025-11-27 18:15:21.912433 [09664] >> Error entry
 	[Handle: 2217310355024	ConvID: 76844821	Target: kmiprd	SysID: PRD	SysNr: 01	User: kmi-u38	Client: 300	Language: E	Codepage: 4103]
 	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+
+**** Log file opened at 2025-11-28 16:00:20.204276 UTC+07:00 (SE Asia Standard Time), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 15
+Compilation date          : Nov  1 2024 23:51:57
+CPIC library              : 754.2024.07.29 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 419
+Current working directory : D:\Development\inspection-app-api
+Program                   : node
+Process ID                : 19840
+User                      : it01k
+Hardware                  : PC with Windows NT 12x AMD64 Level 6 (Mod 186 Step 2)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : SAP_SEMARANG
+IP address                : 192.168.90.71
+IPv6 address              : fe80::2c6b:88e9:b892:7b5c
+Global trace level        : 0
+
+2025-11-28 16:00:20.199000 [17696] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED79C59B0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+	0x7FFF5DFE4A10: node.napi.node!napi_register_module_v1(Error in SymSetContext(): 50)
+	0x7FFF5DFE4A10: node.napi.node!napi_register_module_v1(Error in SymSetContext(): 50)
+	0x7FF69EE16C00: node.exe!v8_inspector::protocol::Schema::API::Domain::~Domain(Error in SymSetContext(): 50)
+	0x7FF69F168600: node.exe!uv_queue_work(Error in SymSetContext(): 50)
+	0x7FF69F1520F0: node.exe!uv_poll_stop(Error in SymSetContext(): 50)
+	0x7FF6A0916B10: node.exe!inflateValidate(Error in SymSetContext(): 50)
+	0x7FFF7876E8C0: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFF7904C510: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2025-11-28 16:00:20.462815 [17696] >> Error entry
+	[Handle: 2021754724512	ConvID: 55238790	Target: kmiprd	SysID: PRD	SysNr: 01	User: KMI-U124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2025-11-28 16:00:29.244559 [18688] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED79C59B0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+	0x7FFF5DFE4A10: node.napi.node!napi_register_module_v1(Error in SymSetContext(): 50)
+	0x7FFF5DFE4A10: node.napi.node!napi_register_module_v1(Error in SymSetContext(): 50)
+	0x7FF69EE16C00: node.exe!v8_inspector::protocol::Schema::API::Domain::~Domain(Error in SymSetContext(): 50)
+	0x7FF69F168600: node.exe!uv_queue_work(Error in SymSetContext(): 50)
+	0x7FF69F1520F0: node.exe!uv_poll_stop(Error in SymSetContext(): 50)
+	0x7FF6A0916B10: node.exe!inflateValidate(Error in SymSetContext(): 50)
+	0x7FFF7876E8C0: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFF7904C510: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2025-11-28 16:00:29.245656 [18688] >> Error entry
+	[Handle: 2021754724512	ConvID: 55250932	Target: kmiprd	SysID: PRD	SysNr: 01	User: KMI-U124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2025-11-28 16:13:46.841937 [19628] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED7A096B0: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFED79C59B0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+	0x7FFF5DFE4A10: node.napi.node!napi_register_module_v1(Error in SymSetContext(): 50)
+	0x7FFF5DFE4A10: node.napi.node!napi_register_module_v1(Error in SymSetContext(): 50)
+	0x7FF69EE16C00: node.exe!v8_inspector::protocol::Schema::API::Domain::~Domain(Error in SymSetContext(): 50)
+	0x7FF69F168600: node.exe!uv_queue_work(Error in SymSetContext(): 50)
+	0x7FF69F1520F0: node.exe!uv_poll_stop(Error in SymSetContext(): 50)
+	0x7FF6A0916B10: node.exe!inflateValidate(Error in SymSetContext(): 50)
+	0x7FFF7876E8C0: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFF7904C510: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2025-11-28 16:13:46.858840 [19628] >> Error entry
+	[Handle: 2021754614752	ConvID: 56037563	Target: kmiprd	SysID: PRD	SysNr: 01	User: KMI-U124	Client: 300	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)

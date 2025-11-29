@@ -149,7 +149,7 @@ app.get('/api/get_insp_lot', async (req, res) => {
                     LS_KDPOS, LS_VBELN, LS_POSNR, LS_ROUTE, LS_KUNAG, LS_VKORG,
                     LS_KDMAT, SPRACHE, KTEXTMAT, LOSMENGE, MENGENEINH, LMENGE01,
                     LMENGE04, LMENGE07, LMENGEZUB, STAT34, STAT35, KTEXTLOS,
-                    INSP_DOC_NUMBER, AUFPL, STATS
+                    INSP_DOC_NUMBER, AUFPL, STATS, NAME1, BSTNK
                 ) VALUES ? 
                 ON DUPLICATE KEY UPDATE 
                 WERK=VALUES(WERK), STATS=VALUES(STATS)
@@ -163,7 +163,8 @@ app.get('/api/get_insp_lot', async (req, res) => {
                 lot.LS_KDPOS, lot.LS_VBELN, lot.LS_POSNR, lot.LS_ROUTE, lot.LS_KUNAG, lot.LS_VKORG,
                 lot.LS_KDMAT, lot.SPRACHE, lot.KTEXTMAT, lot.LOSMENGE, lot.MENGENEINH, lot.LMENGE01,
                 lot.LMENGE04, lot.LMENGE07, lot.LMENGEZUB, lot.STAT34, lot.STAT35, lot.KTEXTLOS,
-                lot.INSP_DOC_NUMBER, lot.AUFPL, lot.STATS
+                lot.INSP_DOC_NUMBER, lot.AUFPL, lot.STATS, lot.NAME1, lot.BSTNK,
+                new Date(), new Date()
             ]);
 
             await conn.query(sqlInsp, [valuesInsp]);
@@ -210,7 +211,16 @@ app.get('/api/get_insp_lot', async (req, res) => {
         });
 
     } catch (err) {
-        log('ERROR', 'GET_INSP_LOT', 'Process Failed', err);
+        // [FIX] Gunakan console.error juga untuk melihat stack trace lengkap di terminal
+        console.error("FULL ERROR TRACE:", err);
+
+        // [FIX] Ubah cara logging agar properti error terbaca
+        log('ERROR', 'GET_INSP_LOT', 'Process Failed', { 
+            message: err.message, 
+            code: err.code,      // Kode error MySQL (misal: ER_BAD_FIELD_ERROR)
+            sqlMessage: err.sqlMessage, // Pesan spesifik SQL
+            sql: err.sql         // Query yang menyebabkan error (jika ada)
+        });
         
         if (conn) {
             log('WARN', 'GET_INSP_LOT', 'Rolling back transaction');
